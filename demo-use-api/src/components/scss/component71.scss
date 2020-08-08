@@ -1,0 +1,37 @@
+$color_black: #000;
+$color_grey_75: #757575;
+.type-71{
+    text-align: center;
+    padding: 80px 0;
+    .nl-header-name{
+        .nl-title{
+            display: inline-block;
+            font-size: 30px;
+            position: relative;
+            font-weight: 700;
+            max-width: 680px;
+            margin-bottom: 0;
+        }
+        padding-bottom: 30px;
+    }
+    .nl-content{
+        margin-bottom: 50px;
+        padding: 0 30px;
+        .nl-icon-part{
+            img{
+                display: inline-block;
+            }
+        }
+        .nl-item-name{
+            font-size: 18px;
+            color: $color_black;
+            margin: 10px 0;
+            font-weight: 500;
+            font-family: poppins,sans-serif;
+        }
+        .decs{
+            color: $color_grey_75;
+            line-height: 25px;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+$color_white: #fff;
+$color_grey_1: #e1e1e1;
+$color_grey_3: #333;
+.type-dash{
+    text-align: left;
+    font-size: 14px;
+    min-height: 100vh;
+    padding: 30px 0 0;
+    .hidden{
+        display: none;
+    }
+    .nl-lbl{
+        padding-right: 10px;
+        margin-bottom: 0;
+    }
+    .nl-title-name{
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: bold;
+        color: $color_grey_3;
+        margin: 30px 0;
+    }
+
+    .nl-ip{
+        display: inline-block;
+        height: 29px;
+        width: auto;
+        min-width: 60px;
+        max-width: 200px;
+        border: 1px solid #e1e1e1;
+        border-radius: 3px;
+        padding: 0 15px;
+        margin-right: 15px;
+    }
+
+    .nl-tbl{
+        margin-top: 30px;
+        width: 100%;
+        thead{
+            th{
+                font-size: 16px;
+                font-weight: 500;
+                text-align: center;
+                padding: 15px;
+                line-height: 25px;
+                color: $color_white;
+                background-color: $color_grey_3;
+                .nl-col__id{
+                    width: 60px;
+                }
+                .nl-col__name{
+                    width: 200px;
+                }
+                .nl-col__des{
+                    width: 400px;
+                }
+                .nl-col__image{
+                    width: auto;
+                }
+                .nl-col__btn{
+                    width: 300px;
+                }
+            }
+        }
+        tbody{
+            .nl-tr{
+                &:nth-child(even){
+                    background-color: $color_grey_1;
+                }
+            }
+            .nl-td{
+                box-sizing: border-box;
+                padding: 5px 15px;
+                word-wrap: break-word;
+                word-break: break-all;
+                overflow-wrap: break-word;
+                box-sizing: border-box;
+
+                &:nth-child(4){
+                    max-width: 300px;
+                }
+            }
+        }
+    }
+    .nl-btn{
+        border: 0;
+        width: 60px;
+        height: 29px;
+        color: $color_white;
+        font-weight: 500;
+        border-radius: 3px;
+        margin: 0 5px;
+    }
+    .orange{
+        background-color: orange;
+    }
+    .red{
+        background-color: #db0000;
+    }
+    .primary{
+        background-color: rgb(0, 140, 255);
+    }
+}
